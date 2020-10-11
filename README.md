@@ -1,5 +1,5 @@
 <h3>Quiz App using React & TypeScript<h3>
-<h6>It's a Quiz App developed using react.js and TypeScript technology. In this app quizzes are provided in multple choice form. Scores, Corect & Incorrect answer are displayed immediately when someone answers a question.</h6>
+<h6>It's a Quiz App developed using react.js and TypeScript technology. In this app quizzes are provided in multple choice form. Score, Corect & Incorrect answer are displayed immediately when someone answers a question.</h6>
 <h3>Technology Used:</h3>
 <ul>
     <li>
