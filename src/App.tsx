@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import {fetchQuizQuestions} from './API';
-import preloader from "./images/preloader.gif"
-
 //Components
 import QuestionCard from './components/QuestionCard';
 //Types
 import {QuestionState, Difficulty} from './API';
 //Styles
 import { GlobalStyle, Wrapper } from './app.style';
-// import { Wrapper } from './app.style';
-
+import preloader from "./images/preloader.gif"
 
 export type AnswerObject = {
   question: string;
@@ -79,8 +76,10 @@ const App = () => {
     <GlobalStyle/>
       <Wrapper>
           <h1>Quiz App using React &amp; TypeScript</h1>
-          {gameOver || userAnswers.length === TOTAL_QUESTIONS 
-            ?<div className="btn_start" ><button className="button" onClick={startTrivia}> Start Quiz </button></div>
+          {gameOver  
+            ?<div className="btn_start" >
+              <button className="button" onClick={startTrivia}> Start Quiz </button>
+            </div>
             : null}
           {!gameOver ? <p className="score">Score: {score}</p> : null}
           {loading && <div className="loading">
@@ -98,6 +97,12 @@ const App = () => {
           )}
           {!loading && !gameOver && userAnswers.length === number+1 && number !== (TOTAL_QUESTIONS - 1)
           ? <button className="button" onClick={nextQuestion}>Next Question</button> : null}
+          
+          {userAnswers.length === TOTAL_QUESTIONS ? <div>
+            <h3 className="game-over-message">Game Over</h3>
+            <button className="button-quiz-again" onClick={startTrivia}> Start Quiz Again </button>
+          </div> : null}
+          
       </Wrapper>
     </>
   );
