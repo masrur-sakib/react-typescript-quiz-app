@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Wrapper = styled.div`
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: left;
