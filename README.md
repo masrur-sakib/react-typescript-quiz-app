@@ -1,21 +1,15 @@
-<h3>Quiz App using React & TypeScript<h3>
-<h6>It's a Quiz App developed using react.js and TypeScript technology. In this app, quizzes are provided in multiple-choice form. Score, Correct & Incorrect answer is displayed immediately when someone answers a question.</h6>
-<h3>Technology Used:</h3>
-<ul>
-    <li>
-        <h5>HTML</h5>
-    </li>
-    <li>
-        <h5>CSS</h5>
-    </li>
-    <li>
-        <h5>JavaScript</h5>
-    </li>
-    <li>
-        <h5>TypeScript</h5>
-    </li>
-    <li>
-        <h5>Styled Components Library</h5>
-    </li>
-</ul>
+## Quiz App using React & TypeScript
+
+#### It's a Quiz App developed using react.js and TypeScript technology. In this app, quizzes are provided in multiple-choice form. Score, Correct & Incorrect answer is displayed immediately when someone answers a question.
+
+### Technology Used:
+
+- **JavaScript**
+- **TypeScript**
+- **HTML**
+- **CSS**
+- **Styled Components Library**
+
+### Project Link:
+
 <a target="_blank" href="https://masrursakib-react-typescript-quiz-app.netlify.app/">Live Website Link</a>
