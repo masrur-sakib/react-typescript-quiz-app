@@ -6,6 +6,7 @@
 
 - **JavaScript**
 - **TypeScript**
+- **React.js**
 - **HTML**
 - **CSS**
 - **Styled Components Library**
